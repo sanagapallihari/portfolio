@@ -188,4 +188,43 @@ body {
   gap: 15px;
   max-width: 300px;
 }
+.skills-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.skill-item {
+  text-align: center;
+  width: 120px; /* Width matches the box */
+}
+
+.skill-box {
+  width: 120px;
+  height: 120px;
+  border: 3px solid navy; /* Navy blue outline */
+  border-radius: 8px;
+  background-color: white; /* White background inside the box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 0 auto; /* Center box inside skill-item */
+}
+
+.skill-logo {
+  max-width: 60px;
+  max-height: 60px;
+  object-fit: contain;
+}
+
+.skill-name {
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: navy;
+}
+
 
